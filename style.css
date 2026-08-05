@@ -245,23 +245,50 @@ body{
 /* CONTATO */
 
 .contato{
-    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     padding:50px 20px;
 }
 
 
-.contato h1{
-    font-size:40px;
+.card-contato{
+    background:#0259a0;
+    width:350px;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
 }
 
 
-.contato p{
+.card-contato h1{
+    font-size:35px;
+}
+
+
+.card-contato p{
     font-size:18px;
 }
 
 
-.contato .botao{
-    display:inline-block;
-    width:200px;
+.card-contato .botao{
+    display:block;
+    background:#00c853;
+    color:white;
     text-decoration:none;
+    padding:12px;
+    margin:15px 0;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+
+.card-contato .botao:hover{
+    background:#009624;
+}
+
+
+.local{
+    margin-top:25px;
 }
