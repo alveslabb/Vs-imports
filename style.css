@@ -242,3 +242,26 @@ body{
     }
 
 }
+/* CONTATO */
+
+.contato{
+    text-align:center;
+    padding:50px 20px;
+}
+
+
+.contato h1{
+    font-size:40px;
+}
+
+
+.contato p{
+    font-size:18px;
+}
+
+
+.contato .botao{
+    display:inline-block;
+    width:200px;
+    text-decoration:none;
+}
