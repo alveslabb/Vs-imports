@@ -2,7 +2,7 @@
 body{
     margin:0;
     font-family:Arial, sans-serif;
-    background-color:black;
+    background-color:rgb(0, 0, 0);
     color:white;
     min-height:100vh;
     display:flex;
@@ -241,4 +241,33 @@ body{
         font-size:16px;
     }
 
+}
+/* ===== MENU CLICÁVEL ===== */
+.menu a{
+    background:#013d58;
+    padding:10px 18px;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+}
+
+/* HOVER (PC) */
+.menu a:hover{
+    background:#e40101;
+    color:white;
+    transform:scale(1.05);
+}
+
+/* CLICK (CELULAR) */
+.menu a:active{
+    transform:scale(0.95);
+}/* ===== MELHORAR IMAGEM DO TOPO ===== */
+.topo{
+    padding:10px;
+}
+
+.topo img{
+    width:100%;
+    height:auto;
+    border-radius:10px;
 }
